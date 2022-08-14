@@ -22,9 +22,13 @@ Point is, search algorithms are cool and important.
 Here's how to get the visualizer up and running:
 
 1. Make sure all files are extracted and in the same folder directory
-2. Double-click to open the index.html file
-3. Ensure that JavaScript is enabled on your browser
-4. Check that the UI is working and the grid is showing
+2. Make sure that Visual Studio Code is installed
+3. Install the Live Server Extension for VS Code
+4. Open the folder in VS Code
+5. Select the HTML file
+6. On the bottom right of VS Code, click on Go Live (if this button does not appear, make sure Live Server Extension is installed)
+7. Ensure that JavaScript is enabled on your browser
+8. Check that the UI is working and the grid is showing
 
 ## Usage
 
