@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Khula', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+canvas {
+    border-right: 1px solid #73b7d9;
+    border-bottom: 1px solid #73b7d9;
+    /* margin: 10px; */
+    background-color: #73b7d9;
+}
+
+.container {
+    display: flex;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    min-height: 50vh;
+    border: 1px solid black;
+    width: 250px;
+    gap: 10px;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+}
+
+#right button, select {
+    width: 50%;
+    text-align: center;
+    border: none;
+    background-color: #82a3bf;
+}
+
+#runbtn {
+    background-color: #55cf5b !important;
+    margin-top: auto;
+    margin-bottom: 10px;
+    bottom: 0px;
+    font-size: 28px;
+    border: 3px solid white !important;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.selected {
+    border: 5px solid black !important;
+}
+
+.menu-btn {
+    border: 2px solid white;
+}
+
+.stats {
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar {
+    height: 2rem;
+    width: 100%;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 0px 15px;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
